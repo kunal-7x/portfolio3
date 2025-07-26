@@ -15,7 +15,7 @@ const skillCategories = [
       { name: 'Pandas', level: 85, color: 'from-purple-500 to-purple-300' },
       { name: 'NumPy', level: 85, color: 'from-blue-700 to-blue-500' },
       { name: 'Matplotlib', level: 80, color: 'from-green-600 to-green-400' },
-      { name: 'scikit-learn', level: 75, color: 'from-orange-500 to-orange-300' },
+      // { name: 'scikit-learn', level: 75, color: 'from-orange-500 to-orange-300' },
     ]
   },
   {
@@ -25,10 +25,10 @@ const skillCategories = [
       { name: 'Git', level: 95, color: 'from-orange-500 to-red-500' },
       { name: 'GitHub', level: 95, color: 'from-gray-700 to-gray-500' },
       { name: 'Jupyter', level: 90, color: 'from-orange-600 to-orange-400' },
-      { name: 'Power BI', level: 85, color: 'from-yellow-500 to-yellow-300' },
-      { name: 'Tableau', level: 80, color: 'from-blue-500 to-cyan-500' },
+      // { name: 'Power BI', level: 85, color: 'from-yellow-500 to-yellow-300' },
+      // { name: 'Tableau', level: 80, color: 'from-blue-500 to-cyan-500' },
       { name: 'Excel', level: 90, color: 'from-green-600 to-green-400' },
-      { name: 'Postman', level: 85, color: 'from-orange-500 to-orange-300' },
+      // { name: 'Postman', level: 85, color: 'from-orange-500 to-orange-300' },
     ]
   },
   {
@@ -38,7 +38,7 @@ const skillCategories = [
       { name: 'SQL', level: 90, color: 'from-blue-600 to-blue-400' },
       { name: 'PostgreSQL', level: 85, color: 'from-blue-700 to-blue-500' },
       { name: 'MongoDB', level: 80, color: 'from-green-500 to-green-300' },
-      { name: 'Firebase', level: 75, color: 'from-yellow-500 to-orange-500' },
+      // { name: 'Firebase', level: 75, color: 'from-yellow-500 to-orange-500' },
     ]
   },
   {
@@ -48,9 +48,9 @@ const skillCategories = [
       { name: 'Python', level: 90, color: 'from-blue-600 to-blue-400' },
       { name: 'JavaScript', level: 85, color: 'from-yellow-500 to-yellow-300' },
       { name: 'C++', level: 80, color: 'from-blue-700 to-blue-500' },
-      { name: 'Java', level: 75, color: 'from-red-500 to-orange-500' },
+      // { name: 'Java', level: 75, color: 'from-red-500 to-orange-500' },
       { name: 'SQL', level: 90, color: 'from-purple-500 to-purple-300' },
-      { name: 'Solidity', level: 60, color: 'from-gray-600 to-gray-400' },
+      // { name: 'Solidity', level: 60, color: 'from-gray-600 to-gray-400' },
     ]
   },
   {
@@ -69,7 +69,7 @@ const skillCategories = [
     skills: [
       { name: 'Node.js', level: 80, color: 'from-green-600 to-green-400' },
       { name: 'Express.js', level: 75, color: 'from-gray-600 to-gray-400' },
-      { name: 'FastAPI', level: 80, color: 'from-teal-500 to-cyan-500' },
+      // { name: 'FastAPI', level: 80, color: 'from-teal-500 to-cyan-500' },
     ]
   }
 ];
