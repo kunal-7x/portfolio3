@@ -195,17 +195,36 @@ export const HeroSection = () => {
             >
               <Typewriter
                 options={{
-                  strings: [
+                  strings:[
                     'BS in Data Science @ IIT Madras',
-                
-                    'Insight from Numbers',
-                    'Problem Solver',
-                    'Data Science Student'
-                  ],
-                  autoStart: true,
+                    'McKinsey Forward Graduate',
+                     
+                    'Transforming Raw Data Into Real Solutions',
+                    '200+ DSA Problems Solved',
+                    'Open to Data & ML Internships',
+                    'Creating Intelligent Systems with ML & AI',
+                    'From Code to Clarity',
+                    'Engineering Full-Stack Applications',
+                    'Translating Numbers Into Decisions',
+                    'Exploring AI and Data Pipelines',
+                    'Future Data Scientist',
+                    'Built 20+ Practical Projects',
+                    'Problem Solver | Data Thinker',
+                    'Driven by Curiosity and Logic',
+                    'Clean Code. Clean Data.',
+                    'Focused on Clarity and Accuracy',
+                    'Empowering Insights Through Data',
+                    'Always Learning and Improving',
+                    'Research Enthusiast | Builder',
+                    'Solving Problems with Code'
+                  ]
+                  
+                  ,
+                  autoStart: true ,
+                 
                   loop: true,
-                  delay: 100,
-                  deleteSpeed: 50,
+                  delay: 80,
+                  deleteSpeed: 35,
                 }}
               />
             </motion.div>
@@ -302,7 +321,7 @@ export const HeroSection = () => {
             className="flex items-center justify-center space-x-4 pt-8 pb-16"
           >
             {[
-               { icon: Linkedin, href: 'https://www.linkedin.com/in/kunalkumar/', label: 'LinkedIn', color: 'hover:text-blue-400' },
+               { icon: Linkedin, href:  'https://www.linkedin.com/in/kunal-kumar-30ab6b338/', label: 'LinkedIn', color: 'hover:text-blue-400' },
               { icon: Mail, href: 'mailto:kunalkumar13790@gmail.com', label: 'Email', color: 'hover:text-accent' },
             ].map((social) => (
               <motion.a

@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Send, Mail, MessageCircle, Github, Linkedin, Twitter, MapPin, Phone, Copy, Check } from 'lucide-react';
+import { Send, Mail, MessageCircle, Github, Linkedin, Twitter, MapPin, Phone, Copy, Check, Computer } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -25,7 +25,14 @@ const contactMethods = [
   {
     icon: MapPin,
     label: 'Location',
-    value: 'Available Remotely',
+    value: 'India',
+    href: '#',
+    copyable: false
+  },
+  {
+    icon: Computer,
+    label: 'Availability',
+    value: 'Onsite/Remote/Freelance',
     href: '#',
     copyable: false
   }
@@ -41,7 +48,7 @@ const socialLinks = [
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/kunalkumar/',
+    href: 'https://www.linkedin.com/',
     color: 'hover:text-blue-400'
   },
 ];
@@ -187,19 +194,19 @@ export const ContactSection = () => {
                   transition={{ duration: 0.6, delay: 0.4 + index * 0.1 }}
                   className="flex items-center space-x-4 group"
                 >
-                  <div className="w-12 h-12 glass rounded-xl flex items-center justify-center group-hover:bg-primary/10 transition-colors">
+                  <div className="w-12 h-12 glass rounded-xl flex items-center justify-center  ">
                     <method.icon className="w-5 h-5 text-primary" />
                   </div>
                   <div className="flex-1">
                     <p className="font-medium text-foreground">{method.label}</p>
                     <p className="text-muted-foreground">{method.value}</p>
-                  </div>
+                  </div  >
                   {method.copyable && (
                     <Button
-                      variant="ghost"
+                      variant= "default"
                       size="sm"
                       onClick={() => copyToClipboard(method.value, method.label)}
-                      className="opacity-0 group-hover:opacity-100 transition-opacity"
+                      className="opacity-100 group-hover:opacity-100 transition-opacity"
                     >
                       {copiedField === method.label ? (
                         <Check className="w-4 h-4 text-green-500" />
