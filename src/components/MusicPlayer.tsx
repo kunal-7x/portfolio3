@@ -155,7 +155,7 @@ export const MusicPlayer = () => {
         {/* Main Button */}
         <Button
           onClick={togglePlay}
-          variant="ghost"
+          variant="primary"
           size="sm"
           className="relative h-10 w-10 rounded-full music-player-glass transition-all duration-300 group-hover:scale-105"
         >

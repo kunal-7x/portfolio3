@@ -62,43 +62,14 @@ export const Footer = () => {
                 <Coffee className="w-4 h-4" />
                 <span>Fueled by curiosity and coffee</span>
               </div>
-
-              <div className="flex space-x-4">
-                {socialLinks.map((social) => (
-                  <motion.a
-                    key={social.label}
-                    href={social.href}
-                    whileHover={{ scale: 1.1, y: -2 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="p-2 glass rounded-lg hover:bg-primary/10 transition-colors"
-                    aria-label={social.label}
-                  >
-                    <social.icon className="w-4 h-4" />
-                  </motion.a>
-                ))}
-              </div>
+ 
             </motion.div>
 
             {/* Quick Links */}
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              viewport={{ once: true }}
-              className="space-y-6"
+               
             >
-              <h4 className="font-semibold text-lg">Quick Links</h4>
-              <nav className="space-y-3">
-                {quickLinks.map((link) => (
-                  <button
-                    key={link.name}
-                    onClick={() => scrollToSection(link.href)}
-                    className="block text-muted-foreground hover:text-primary transition-colors text-left"
-                  >
-                    {link.name}
-                  </button>
-                ))}
-              </nav>
+              
             </motion.div>
 
             {/* Contact Info */}
