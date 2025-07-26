@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoDistractionZone</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #fd79a8 0%, #fdcb6e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        p {
+            color: #666;
+            margin-bottom: 2rem;
+        }
+        .focus-session {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 1rem 0;
+        }
+        .blocked-sites {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        .site {
+            background: #e74c3c;
+            color: white;
+            padding: 0.5rem;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+        .features {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+        .features li {
+            margin: 0.5rem 0;
+            color: #555;
+        }
+        .btn {
+            background: linear-gradient(135deg, #fd79a8 0%, #fdcb6e 100%);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: transform 0.2s;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+        .status {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: #00b894;
+            color: white;
+            border-radius: 15px;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚫 NoDistractionZone</h1>
+        <p>Website blocker with motivation features and focus insights</p>
+        
+        <div class="status">🟢 Focus Mode: Active</div>
+        
+        <div class="focus-session">
+            <h3>Current Session: 1h 23m</h3>
+            <p>Stay focused! You're doing great! 💪</p>
+        </div>
+
+        <div class="blocked-sites">
+            <div class="site">🚫 Facebook</div>
+            <div class="site">🚫 Twitter</div>
+            <div class="site">🚫 YouTube</div>
+            <div class="site">🚫 Netflix</div>
+        </div>
+
+        <ul class="features">
+            <li>🔒 Smart website blocking</li>
+            <li>💪 Motivation features</li>
+            <li>📈 Productivity insights</li>
+            <li>⏰ Focus sessions</li>
+        </ul>
+        <button class="btn" onclick="alert('Focus session extended! Keep going! 🎯')">Extend Session</button>
+    </div>
+</body>
+</html>
