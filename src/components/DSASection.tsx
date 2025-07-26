@@ -16,15 +16,10 @@ const dsaStats = [
     icon: Target,
     color: 'from-purple-500 to-pink-500'
   },
-  {
-    label: 'Contest Rating',
-    value: '1200+',
-    icon: Trophy,
-    color: 'from-yellow-500 to-orange-500'
-  },
+ 
   {
     label: 'Languages Used',
-    value: 'C++, Java, Python',
+    value: 'C++, Python',
     icon: Zap,
     color: 'from-green-500 to-teal-500'
   }
@@ -34,7 +29,7 @@ const topicProgress = [
   { name: 'Arrays & Strings', progress: 85, problems: 60 },
   { name: 'Dynamic Programming', progress: 80, problems: 45 },
   { name: 'Trees & Graphs', progress: 75, problems: 50 },
-  { name: 'System Design', progress: 65, problems: 15 },
+  
   { name: 'Backtracking', progress: 70, problems: 30 },
 ];
 
@@ -85,7 +80,7 @@ export const DSASection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16"
+          className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16"
         >
           {dsaStats.map((stat, index) => (
             <motion.div

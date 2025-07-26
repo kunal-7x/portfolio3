@@ -1,12 +1,15 @@
 import { useEffect, useRef } from 'react';
 import { motion, useInView, useMotionValue, useSpring } from 'framer-motion';
-import { Calendar, MapPin, Award, Code2, Brain, Heart } from 'lucide-react';
+import { Calendar, MapPin, Award, Code2, Brain, Heart, Settings } from 'lucide-react';
 // Removed react-tilt due to compatibility issues
 
 const timeline = [
-  { year: '2024', title: 'Started BS in Data Science @ IIT Madras', description: 'Began my journey in data science', icon: Calendar },
-  { year: '2024', title: 'Learned Full-Stack Web Development', description: 'Mastered React, Node.js & databases', icon: Code2 },
-  { year: '2024', title: 'Explored AI/ML and Data Tools', description: 'Built data-powered applications', icon: Brain },
+  { year: '2022...', title: 'Building...', description: 'Building Something Matter...', icon: Settings },
+
+   { year: '2023...', title: 'Full-Stack Web Development', description: 'Mastered React, Node.js & databases', icon: Code2 },
+  { year: '2023...', title: 'AI/ML and Data Tools', description: 'Built data-powered applications', icon: Brain },
+  { year: '2024 - 2028 ', title: 'Started BS in Data Science @ IIT Madras', description: 'Began my journey in data science', icon: Calendar },
+
   { year: '2025', title: 'Completed McKinsey Forward Learning Program', description: 'Open to Internships', icon: Award },
 ];
 
