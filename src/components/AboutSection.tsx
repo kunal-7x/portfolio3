@@ -8,7 +8,7 @@ const timeline = [
 
    { year: '2023...', title: 'Full-Stack Web Development', description: 'Mastered React, Node.js & databases', icon: Code2 },
   { year: '2023...', title: 'AI/ML and Data Tools', description: 'Built data-powered applications', icon: Brain },
-  { year: '2024 - 2028 ', title: 'Started BS in Data Science @ IIT Madras', description: 'Began my journey in data science', icon: Calendar },
+  { year: '2024 - 2028 ', title: 'BS in Data Science @ IIT Madras', description: 'Began my journey in data science', icon: Calendar },
 
   { year: '2025', title: 'Completed McKinsey Forward Learning Program', description: 'Open to Internships', icon: Award },
 ];
