@@ -3,10 +3,10 @@ import { ArrowUp, Heart, Coffee, Github, Linkedin, Mail, Twitter } from 'lucide-
 import { Button } from '@/components/ui/button';
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com/kunalkumar', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://www.linkedin.com/in/kunalkumar/', label: 'LinkedIn' },
+  { icon: Github, href: 'https://github.com/partik-507', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/partik7/', label: 'LinkedIn' },
   
-  { icon: Mail, href: 'mailto:kunalkumar13790@gmail.com', label: 'Email' },
+  { icon: Mail, href: 'mailto:partikprajapat7@gmail.com', label: 'Email' },
 ];
 
 const quickLinks = [
@@ -50,7 +50,7 @@ export const Footer = () => {
             >
               <div>
                 <h3 className="font-space text-2xl font-bold gradient-text mb-2">
-                  kunal.dev
+                  Partik.dev
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Building data-powered systems that extract insights from numbers. 
@@ -113,7 +113,7 @@ export const Footer = () => {
               viewport={{ once: true }}
               className="flex items-center space-x-2 text-sm text-muted-foreground"
             >
-              <span>© 2024 Kunal Kumar. Made with</span>
+              <span>© 2024 Partik Prajapat. Made with</span>
               <Heart className="w-4 h-4 text-red-500 animate-pulse" />
               <span>using React, Tailwind & Framer Motion</span>
             </motion.div>
@@ -126,7 +126,7 @@ export const Footer = () => {
               className="flex items-center space-x-4"
             >
               <span className="text-sm text-muted-foreground">
-                Designed & Built by Kunal
+                Designed & Built by Partik
               </span>
               <Button
                 variant="ghost"

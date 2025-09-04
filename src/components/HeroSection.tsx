@@ -182,8 +182,8 @@ export const HeroSection = () => {
                 repeat: Infinity,
                 ease: "easeInOut"
               }}
-            > <div >
-   Kunal Kumar
+            > <div className="text-4xl md:text-7xl lg:text-9xl font-bold ">
+    Partik Prajapat
             </div>
             
             </motion.h1>
@@ -196,19 +196,17 @@ export const HeroSection = () => {
               <Typewriter
                 options={{
                   strings:[
-                    'BS in Data Science @ IIT Madras',
-                    'McKinsey Forward Graduate',
-                     
+                    'B.Tech in Computer Science @ SPSU',
+                      
                     'Transforming Raw Data Into Real Solutions',
                     '200+ DSA Problems Solved',
-                    'Open to Data & ML Internships',
-                    'Creating Intelligent Systems with ML & AI',
+                     'Creating Intelligent Systems with ML & AI',
                     'From Code to Clarity',
                     'Engineering Full-Stack Applications',
                     'Translating Numbers Into Decisions',
                     'Exploring AI and Data Pipelines',
                     'Future Data Scientist',
-                    'Built 20+ Practical Projects',
+                    'Built 2 Practical Projects',
                     'Problem Solver | Data Thinker',
                     'Driven by Curiosity and Logic',
                     'Clean Code. Clean Data.',
@@ -294,7 +292,7 @@ export const HeroSection = () => {
               </span>
             </motion.button>
             
-            <motion.button
+            {/* <motion.button
               onClick={() => window.open('/resume.pdf', '_blank')}
               className="btn-secondary group"
               whileHover={{ scale: 1.02 }}
@@ -310,7 +308,7 @@ export const HeroSection = () => {
                   ↓
                 </motion.span>
               </span>
-            </motion.button>
+            </motion.button> */}
           </motion.div>
 
           {/* Luxury Social Links */}
@@ -321,8 +319,8 @@ export const HeroSection = () => {
             className="flex items-center justify-center space-x-4 pt-8 pb-16"
           >
             {[
-               { icon: Linkedin, href:  'https://www.linkedin.com/in/kunal-kumar-30ab6b338/', label: 'LinkedIn', color: 'hover:text-blue-400' },
-              { icon: Mail, href: 'mailto:kunalkumar13790@gmail.com', label: 'Email', color: 'hover:text-accent' },
+               { icon: Linkedin, href:  'https://www.linkedin.com/in/partik7/', label: 'LinkedIn', color: 'hover:text-blue-400' },
+              { icon: Mail, href: 'mailto:partikprajapat7@gmail.com', label: 'Email', color: 'hover:text-accent' },
             ].map((social) => (
               <motion.a
                 key={social.label}

@@ -11,15 +11,15 @@ const contactMethods = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'kunalkumar13790@gmail.com',
-    href: 'mailto:kunalkumar13790@gmail.com',
+    value: 'partikprajapat7@gmail.com',
+    href: 'mailto:partikprajapat7@gmail.com',
     copyable: true
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+91 6375548830',
-    href: 'tel:+916375548830',
+    value: '+91 6376980812',
+    href: 'tel:+916376980812',
     copyable: true
   },
   {

@@ -3,14 +3,16 @@ import { motion, useInView, useMotionValue, useSpring } from 'framer-motion';
 import { Calendar, MapPin, Award, Code2, Brain, Heart, Settings } from 'lucide-react';
 // Removed react-tilt due to compatibility issues
 
-const timeline = [
-  { year: '2022...', title: 'Building...', description: 'Building Something Matter...', icon: Settings },
+const timeline = [ 
+ 
+
+  
+     { year: '2022-2026', title: ' Sir Padampat Singhania University, Udaipur', description: 'Pursuing degree in Computer Science', icon: Calendar },
 
    { year: '2023...', title: 'Full-Stack Web Development', description: 'Mastered React, Node.js & databases', icon: Code2 },
-  { year: '2023...', title: 'AI/ML and Data Tools', description: 'Built data-powered applications', icon: Brain },
-  { year: '2024 - 2028 ', title: 'BS in Data Science @ IIT Madras', description: 'Began my journey in data science', icon: Calendar },
+  { year: '2024...', title: 'AI/ML and Data Tools', description: 'Built data-powered applications', icon: Brain },
+  { year: 'May 2025 - July 2025', title: 'Internship', description: 'Completed internship at  CodeTech IT Solutions Pvt. Ltd. as  Full Stack Developer Intern ', icon: Award },
 
-  { year: '2025', title: 'Completed McKinsey Forward Learning Program', description: 'Open to Internships', icon: Award },
 ];
 
 const Counter = ({ from, to, duration = 2 }: { from: number; to: number; duration?: number }) => {
@@ -80,15 +82,12 @@ export const AboutSection = () => {
               className="space-y-6"
             >
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I am Kunal Kumar, a student at IIT Madras pursuing a BS in Data Science. I'm passionate about logic, 
+                I am Partik Prajapat, a student at SPSU pursuing a B.Tech in Computer Science. I'm passionate about logic, 
                 problem-solving, and building data-driven products. From web development to AI automation, I've completed 
-                20+ projects and solved 200+ DSA problems.
+                2 projects and solved 200+ DSA problems.
               </p>
               
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                I build data-powered systems using tools like Python, ML, SQL, and visual analytics. I'm open to 
-                internships and data roles where I can contribute to meaningful data-driven solutions.
-              </p>
+              
 
               <div className="flex items-center space-x-6 text-sm text-muted-foreground">
                 <div className="flex items-center space-x-2">
@@ -110,11 +109,9 @@ export const AboutSection = () => {
               className="grid grid-cols-2 gap-6"
             >
               {[
-                { label: 'Projects Completed', value: 20, suffix: '+' },
+                { label: 'Projects Completed', value: 2, suffix: '' },
                 { label: 'DSA Problems Solved', value: 200, suffix: '+' },
-                { label: 'Technologies Learned', value: 10, suffix: '+' },
-                { label: 'Hackathon Wins', value: 2, suffix: '' },
-              ].map((stat, index) => (
+               ].map((stat, index) => (
                 <div key={stat.label} className="glass-card text-center">
                   <div className="text-2xl font-bold gradient-text">
                     <Counter from={0} to={stat.value} />
@@ -152,10 +149,9 @@ export const AboutSection = () => {
                     popup.className = 'fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4';
                     popup.innerHTML = `
                       <div class="bg-background rounded-xl p-6 max-w-md w-full glass">
-                        <h3 class="text-xl font-space font-semibold mb-4">About KK Kunal Kumar</h3>
+                        <h3 class="text-xl font-space font-semibold mb-4">About PP Partik Prajapat</h3>
                         <p class="text-muted-foreground leading-relaxed">
-                          I am Kunal Kumar, currently pursuing a BS in Data Science at IIT Madras. I build data-powered systems using tools like Python, ML, SQL, and visual analytics. I'm open to internships and data roles.
-                        </p>
+                          I am Partik Parajapat, currently pursuing a B.Tech in computer Science at spsu.                         </p>
                         <button onclick="this.parentElement.parentElement.remove()" class="mt-4 px-4 py-2 bg-primary text-primary-foreground rounded-lg">Close</button>
                       </div>
                     `;
@@ -163,12 +159,12 @@ export const AboutSection = () => {
                   }}
                 >
                   <div className="w-full h-full bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl flex items-center justify-center">
-                    <div className="text-6xl font-bold gradient-text">KK</div>
+                    <div className="text-6xl font-bold gradient-text">PP</div>
                   </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-background/50 to-transparent rounded-3xl" />
                   <div className="absolute bottom-6 left-6 right-6">
-                    <h3 className="font-space font-semibold text-lg">KK Kunal Kumar</h3>
-                    <p className="text-muted-foreground text-sm">Data Science Student at IIT Madras</p>
+                    <h3 className="font-space font-semibold text-lg">PP Partik Prajapat</h3>
+                    <p className="text-muted-foreground text-sm">Computer Science Student at SPSU</p>
                   </div>
                 </div>
                 <div className="absolute -inset-1 bg-gradient-to-r from-primary/50 to-accent/50 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity -z-10" />

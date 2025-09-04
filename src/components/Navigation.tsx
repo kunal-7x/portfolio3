@@ -73,7 +73,7 @@ export const Navigation = () => {
                 className="w-20 h-20 rounded-lg object-cover m-0 p-0"
               />
               <span className="font-space text-3xl font-bold gradient-text">
-                kunal.dev
+                Partik.dev
               </span>
               <div className="absolute -inset-2 bg-gradient-to-r from-primary/20 to-accent/20 rounded-lg blur opacity-0 group-hover:opacity-100 transition-opacity" />
             </motion.div>

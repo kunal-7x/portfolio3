@@ -3,39 +3,13 @@ import { motion, useInView } from 'framer-motion';
 import { Trophy, Medal, Award, Star } from 'lucide-react';
 
 const achievements = [
+
   {
-    title: '3rd Rank – State-level Cultural Art Competition',
-    description: 'Achieved 3rd position in a prestigious state-level cultural arts competition',
-    icon: Trophy,
-    color: 'from-yellow-500 to-orange-500',
-    year: '2023'
-  },
-  {
-    title: 'State-level Chess Player',
-    description: 'Competed at state level in chess tournaments',
-    icon: Medal,
-    color: 'from-blue-500 to-cyan-500',
-    year: '2023'
-  },
-  {
-    title: 'District-level Math Olympiad Finalist',
-    description: 'Reached finals in district-level mathematics olympiad',
-    icon: Award,
-    color: 'from-purple-500 to-pink-500',
-    year: '2022'
-  },
-  {
-    title: 'State-level Yoga Participant',
-    description: 'Participated in state-level yoga competitions',
+    title: '• Adobe India Hackathon 2024',
+    description:  ' Successfully participated in Round 1 as part of Team Algoverse',
+    
     icon: Star,
     color: 'from-green-500 to-teal-500',
-    year: '2022'
-  },
-  {
-    title: 'Hosted HR Conclave & Tech Events at IIT Madras',
-    description: 'Successfully hosted and organized multiple tech events at IIT Madras',
-    icon: Trophy,
-    color: 'from-orange-500 to-red-500',
     year: '2024'
   }
 ];

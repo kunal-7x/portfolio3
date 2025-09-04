@@ -7,29 +7,14 @@ import {
 } from 'lucide-react';
 
 const skillCategories = [
-  {
-    title: 'Data Science & Analysis',
-    icon: Brain,
-    skills: [
-      { name: 'Python', level: 90, color: 'from-blue-600 to-blue-400' },
-      { name: 'Pandas', level: 85, color: 'from-purple-500 to-purple-300' },
-      { name: 'NumPy', level: 85, color: 'from-blue-700 to-blue-500' },
-      { name: 'Matplotlib', level: 80, color: 'from-green-600 to-green-400' },
-      { name: 'scikit-learn', level: 75, color: 'from-orange-500 to-orange-300' },
-    ]
-  },
+ 
   {
     title: 'Tools',
     icon: Terminal,
     skills: [
       { name: 'Git', level: 95, color: 'from-orange-500 to-red-500' },
       { name: 'GitHub', level: 95, color: 'from-gray-700 to-gray-500' },
-      { name: 'Jupyter', level: 90, color: 'from-orange-600 to-orange-400' },
-      { name: 'Power BI', level: 85, color: 'from-yellow-500 to-yellow-300' },
-      { name: 'Tableau', level: 80, color: 'from-blue-500 to-cyan-500' },
-      { name: 'Excel', level: 90, color: 'from-green-600 to-green-400' },
-      // { name: 'Postman', level: 85, color: 'from-orange-500 to-orange-300' },
-    ]
+      { name: 'VS Code', level: 90, color: 'from-blue-600 to-blue-400' },]
   },
   {
     title: 'Databases & Querying',
@@ -49,7 +34,7 @@ const skillCategories = [
       { name: 'JavaScript', level: 85, color: 'from-yellow-500 to-yellow-300' },
       { name: 'C++', level: 80, color: 'from-blue-700 to-blue-500' },
       { name: 'Java', level: 75, color: 'from-red-500 to-orange-500' },
-      { name: 'SQL', level: 90, color: 'from-purple-500 to-purple-300' },
+      // { name: 'SQL', level: 90, color: 'from-purple-500 to-purple-300' },
       // { name: 'Solidity', level: 60, color: 'from-gray-600 to-gray-400' },
     ]
   },
@@ -69,8 +54,7 @@ const skillCategories = [
     skills: [
       { name: 'Node.js', level: 80, color: 'from-green-600 to-green-400' },
       { name: 'Express.js', level: 75, color: 'from-gray-600 to-gray-400' },
-      { name: 'FastAPI', level: 80, color: 'from-teal-500 to-cyan-500' },
-    ]
+     ]
   }
 ];
 
@@ -200,10 +184,10 @@ export const SkillsSection = () => {
           transition={{ duration: 0.8, delay: 1 }}
           className="mt-16 text-center"
         >
-          <h3 className="text-xl font-space font-semibold mb-6">Also Experienced With</h3>
+          {/* <h3 className="text-xl font-space font-semibold mb-6">Also Experienced With</h3> */}
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              'Kaggle', 'CodeChef', 'OOP', 'DSA', 'Problem-solving', 'Communication', 'Collaboration'
+              // 'Kaggle', 'CodeChef', 'OOP', 'DSA', 'Problem-solving', 'Communication', 'Collaboration'
             ].map((tech, index) => (
               <motion.span
                 key={tech}
