@@ -7,7 +7,7 @@ const achievements = [
   {
     title: '• Adobe India Hackathon 2024',
     description:  ' Successfully participated in Round 1 as part of Team Algoverse',
-    
+
     icon: Star,
     color: 'from-green-500 to-teal-500',
     year: '2024'
@@ -67,9 +67,9 @@ export const AchievementsSection = () => {
         >
           <h2 className="mb-4">🏆 Achievements</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent rounded-full mx-auto mb-6" />
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+          {/* <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Recognition for building innovative solutions and competing with the best developers worldwide.
-          </p>
+          </p> */}
         </motion.div>
 
         {/* Achievements Grid */}
